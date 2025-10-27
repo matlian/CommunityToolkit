@@ -37,7 +37,7 @@ public IRelayCommand GreetUserCommand => greetUserCommand ??= new RelayCommand(G
 ```
 
 > [!NOTE]
-> The name of the generated command will be created based on the method name. The generator will use the method name and append "Command" at the end, and it will strip the "On" prefix, if present. Additionally, for asynchronous methods, the "Async" suffix is also stripped before "Command" is appeneded.
+> The name of the generated command will be created based on the method name. The generator will use the method name and append "Command" at the end, and it will strip the "On" prefix, if present. Additionally, for asynchronous methods, the "Async" suffix is also stripped before "Command" is appended.
 
 ## Command parameters
 
